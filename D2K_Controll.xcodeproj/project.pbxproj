@@ -17,6 +17,7 @@
 		3DE01B0027F87FF200505E2D /* D2K_ControllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE01AFF27F87FF200505E2D /* D2K_ControllTests.swift */; };
 		3DE01B0A27F87FF200505E2D /* D2K_ControllUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE01B0927F87FF200505E2D /* D2K_ControllUITests.swift */; };
 		3DE01B0C27F87FF200505E2D /* D2K_ControllUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE01B0B27F87FF200505E2D /* D2K_ControllUITestsLaunchTests.swift */; };
+		3DE01B1927FC958400505E2D /* FetchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE01B1827FC958400505E2D /* FetchButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3DE01B0527F87FF200505E2D /* D2K_ControllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = D2K_ControllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE01B0927F87FF200505E2D /* D2K_ControllUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D2K_ControllUITests.swift; sourceTree = "<group>"; };
 		3DE01B0B27F87FF200505E2D /* D2K_ControllUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D2K_ControllUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DE01B1827FC958400505E2D /* FetchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				3DE01AE527F87FF000505E2D /* AppDelegate.swift */,
 				3DE01AE727F87FF000505E2D /* SceneDelegate.swift */,
 				3DE01AE927F87FF000505E2D /* ViewController.swift */,
+				3DE01B1827FC958400505E2D /* FetchButton.swift */,
 				3DE01AEB27F87FF000505E2D /* Main.storyboard */,
 				3DE01AF127F87FF200505E2D /* Assets.xcassets */,
 				3DE01AF327F87FF200505E2D /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				3DE01AE627F87FF000505E2D /* AppDelegate.swift in Sources */,
 				3DE01AF027F87FF000505E2D /* D2K_Controll.xcdatamodeld in Sources */,
 				3DE01AE827F87FF000505E2D /* SceneDelegate.swift in Sources */,
+				3DE01B1927FC958400505E2D /* FetchButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
