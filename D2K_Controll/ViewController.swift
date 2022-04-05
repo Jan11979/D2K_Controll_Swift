@@ -52,8 +52,6 @@ class ViewController: UIViewController {
                 doLabelChange( text: text )
                 
                 print(fixtures)
-            }catch let jsonError {
-                print("jsonError")
             }
             
                                 
