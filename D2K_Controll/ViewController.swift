@@ -36,14 +36,12 @@ class ViewController: UIViewController {
 
               guard let httpResponse = response as? HTTPURLResponse,
                     (200...299).contains(httpResponse.statusCode) else {
-                  self.infoTextOutput.text = "Error1"
+                  print("httpResponse Error")
                 return
               }
             do {
                 let fixtures = try! JSONDecoder ().decode ([String].self, from: data!)
                 
-                //Muss in anderen Tread
-                //self.infoTextOutput.text = "DataDa "
                 var text:String = "";
                 
                 fixtures.forEach { word in
@@ -55,15 +53,10 @@ class ViewController: UIViewController {
                 
                 print(fixtures)
             }catch let jsonError {
-                self.infoTextOutput.text = "Error2"
+                print("jsonError")
             }
             
                                 
-            
-//              if let data = data,
-//                let textdata = try? JSONDecoder().decode(String.self, from: data) {
-//                  self.infoTextOutput.text = "Keine Daten"//textdata
-//              }
             })
             task.resume()
     }
